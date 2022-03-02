@@ -10,16 +10,6 @@ void print_vector(const vector <int>& vector1)
     }
 }
 
-int min(vector <int>& mass)
-{
-    int min = 999999;
-    for (int i = 0; i < mass.size(); i++) {
-        if (mass[i] < min)
-            min = mass[i];
-    }
-    return min;
-}
-
 bool issorted(vector <int>& mass)
 {
     for (int i = 1; i < mass.size(); i++) {
